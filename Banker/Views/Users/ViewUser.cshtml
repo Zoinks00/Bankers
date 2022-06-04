@@ -1,0 +1,22 @@
+﻿@using Banker.Models
+@model Users
+
+<h3>@Model.Name Information</h3>
+
+<table class="table">
+    <tr>
+        <th>User ID</th>
+        <th>First</th>
+        <th>Middle</th>
+        <th>Last</th>
+        <th>Account</th>
+        
+    </tr>
+    <tr>
+        <td>@Model.IdUser</td>
+        <td>@Model.FirstName</td>
+        <td>@Model.MiddleName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.IdBalance</td>
+    </tr>
+    </table>
